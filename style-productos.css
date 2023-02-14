@@ -1,0 +1,29 @@
+.div_box {
+    text-align: center;
+}
+
+.div_titulo {
+    margin: 50px;
+}
+
+.section_prod_view {
+    margin: 100px 500px 100px 700px;
+    display: flex;
+    width: 600px;
+    height: 430px;
+}
+
+.img_prod_mod {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+.img_prod_mod:hover {
+    cursor: pointer;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
